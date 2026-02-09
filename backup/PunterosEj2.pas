@@ -20,7 +20,7 @@ var
   i: integer;
 begin
   for i:= ini to fin do  begin
-    writeln(miArray[i]);
+    writeln(v[i]);
   end;
 end;
 
@@ -41,6 +41,7 @@ begin
   end;
 
   mostrarArray(V); { Muestra los valores del array “V” por pantalla }
+  end;
 
 
   readln(i);

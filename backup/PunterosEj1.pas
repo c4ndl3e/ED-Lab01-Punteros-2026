@@ -24,10 +24,26 @@ begin
   writeln('x: ',x,'  p_ent: ',p_ent^); { Imprime por pantalla el valor de x y también del entero al que apunta p_ent }
   p_ent:= NIL; { Pon el puntero p_ent a NIL }
   dispose(p_ent); { Libera la memoria asociada al nuevo entero }
-  p_ent:= @x; { Suma 100 a x pero sin usar x en la operación de suma (solo usando p_ent) }
+  p_ent:= @x;
   p_ent^:= p_ent^ + 100;
-  writeln('x: ',x,'  p_ent: ',p_ent^); { Muestra por pantalla que son iguales }
-  dispose(p_ent); { Libera toda la memoria asociada a p_ent y termina }
+  writeln('x: ',x,'  p_ent: ',p_ent^);
+  dispose(p_ent);
+
+
+
+
+
+
+
+
+
+
+
+    { Suma 100 a x pero sin usar x en la operación de suma (solo usando p_ent) }
+
+    { Muestra por pantalla que son iguales }
+
+    { Libera toda la memoria asociada a p_ent y termina }
 
   readln;
 end.

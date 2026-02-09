@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="PunterosEj3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="30" Y="25"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="17">
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="26" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="3" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="17" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="22" Column="2"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="22" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="12" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="23" Column="28"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="PunterosEj3.lpr"/>
+        <Line Value="21"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="p_nodo^.entero"/>
+      </Item>
+      <Item>
+        <Expression Value="p_nodo^.puntero"/>
+      </Item>
+      <Item>
+        <Expression Value="p_nodo"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
