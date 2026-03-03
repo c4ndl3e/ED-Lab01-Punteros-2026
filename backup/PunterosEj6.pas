@@ -9,7 +9,7 @@ uses SysUtils, crt;
 }
 
 const
-  NUM_PAREJAS= 3;
+  NUM_PAREJAS= 1;
   NUM_PARTICIPANTES= 2 * (NUM_PAREJAS + (NUM_PAREJAS div 2));
 
 

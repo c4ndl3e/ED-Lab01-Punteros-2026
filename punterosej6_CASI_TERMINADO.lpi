@@ -8,9 +8,10 @@
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
+        <UseDefaultCompilerOptions Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="PunterosEj1"/>
+      <Title Value="punterosej6_CASI_TERMINADO"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,7 +27,7 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj1.pas"/>
+        <Filename Value="punterosej6_CASI_TERMINADO.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -35,7 +36,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="PunterosEj1"/>
+      <Filename Value="punterosej6_CASI_TERMINADO"/>
     </Target>
     <SearchPaths>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>

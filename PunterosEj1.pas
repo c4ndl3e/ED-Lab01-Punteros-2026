@@ -15,7 +15,7 @@ begin
   x := 100;  { Da el valor 100 a x }
   new(p_ent); { Crea un entero dinámicamente con p_ent y dale el valor que tiene actualmente x }
   p_ent^ := x; { Imprime por pantalla el valor contenido en el entero al que apunta p_ent }
-  writeln(p_ent^); { Imprime por pantalla el valor contenido en el entero al que apunta p_ent }
+  writeln(p_ent^);
 
   new(p_ent); { Crea con new un nuevo entero dinámicamente }
   writeln(p_ent^); { Imprime por pantalla el valor contenido en el entero al que apunta p_ent }

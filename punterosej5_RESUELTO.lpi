@@ -10,7 +10,7 @@
         <MainUnitHasScaledStatement Value="False"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="PunterosEj1"/>
+      <Title Value="punterosej5_RESUELTO"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,7 +26,7 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj1.pas"/>
+        <Filename Value="punterosej5_RESUELTO.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -35,9 +35,10 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="PunterosEj1"/>
+      <Filename Value="punterosej5_RESUELTO"/>
     </Target>
     <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

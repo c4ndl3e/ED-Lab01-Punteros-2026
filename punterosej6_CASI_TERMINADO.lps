@@ -6,11 +6,11 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj2.lpr"/>
+        <Filename Value="punterosej6_CASI_TERMINADO.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="6" Y="47"/>
+        <TopLine Value="122"/>
+        <CursorPos Y="135"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>

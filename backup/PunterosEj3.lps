@@ -9,12 +9,12 @@
         <Filename Value="PunterosEj3.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="28" Y="23"/>
+        <CursorPos X="29" Y="24"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="16">
+    <JumpHistory HistoryIndex="17">
       <Position>
         <Filename Value="PunterosEj3.lpr"/>
         <Caret Line="26" Column="37"/>
@@ -83,6 +83,10 @@
         <Filename Value="PunterosEj3.lpr"/>
         <Caret Line="12" Column="3"/>
       </Position>
+      <Position>
+        <Filename Value="PunterosEj3.lpr"/>
+        <Caret Line="23" Column="28"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
@@ -90,15 +94,6 @@
     </RunParams>
   </ProjectSession>
   <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="PunterosEj3.lpr"/>
-        <Line Value="21"/>
-      </Item>
-    </BreakPoints>
     <Watches>
       <Item>
         <Expression Value="p_nodo^.entero"/>

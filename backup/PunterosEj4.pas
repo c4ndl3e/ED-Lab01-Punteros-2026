@@ -88,10 +88,10 @@ begin
         WriteLn('1. Mostrar array'); { 3.b }
         WriteLn('2. Poner a cero array'); { 4.b }
         WriteLn('3. Poner a NIL los punteros'); { 5.b }
-        WriteLn('4. Maximo array'); { 6.b }
+        WriteLn('4. Máximo array'); { 6.b }
         WriteLn('5. Suma array'); { 7.b }
         WriteLn('0. Salir');
-        Write('Opcion: ');
+        Write('Opción: ');
         ReadLn(option);
 
         case option of

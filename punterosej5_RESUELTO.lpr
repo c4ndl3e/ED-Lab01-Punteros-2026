@@ -1,4 +1,4 @@
-program PunterosEj5;
+program punterosej5_RESUELTO;
 
 uses
     SysUtils;
@@ -9,13 +9,15 @@ const
 
 { Declaración de tipos }
 type
-    coordenada_3D= record { 1. Declara un tipo coordenada_3D para puntos con coordenadas x,y,z }
+    coordenada_3D = record { 1. Declara un tipo coordenada_3D para puntos con coordenadas x,y,z }
       x: integer;
       y: integer;
       z: integer;
     end;
 
-    TArray= array [1..MAX] of ^coordenadas_3D;
+    TPtCoord = ^coordenada_3D;
+
+    TArray= array [1..MAX] of TPtCoord;
 
 { Declaración de variables }
 var
@@ -50,7 +52,7 @@ begin
 end;
 
 
-{ 4.' Implementa un procedimiento que libere la memoria asignada a todas las posiciones } ç
+{ 4.' Implementa un procedimiento que libere la memoria asignada a todas las posiciones }
 procedure disposeAll (l:TArray);
 var
     i: integer;
@@ -84,14 +86,14 @@ begin
 end;
 
 
-{ 6. (Opcional) Implementa un procedimiento que permita añadir una coordenada en la primera 
-    posición libre del array}
-procedure addCord (var l: TArray)
+{ 6. (Opcional) Implementa un procedimiento que permita añadir una coordenada en la primera
+    posición libre del array
+procedure addCord (var l: TArray);
 var
     i,contador: integer;
     c: coordenada_3D;
 begin
-  writeln('Escriba la coordenada a añadir');
+  writeln('Escriba la coordenada a anadir');
   write('x: ');
   readln(c.x);
   write('y: ');
@@ -101,8 +103,10 @@ begin
 
   contador:= 0;
   for i:= 1 to MAX do begin
-    if l[i] = NIL then
-      l[i]^:= c
+    if l[i] = NIL then begin
+      new(l[i]);
+      l[i]^:= c;
+    end
     else
       contador:= succ(contador);
   end;
@@ -111,7 +115,7 @@ begin
   else
     writeln('Coordenada añadida correctamente! :)');
   writeln;
-end;
+end; }
 
 
 { 7. Implementa una función que calcule la máxima coordenada y (debes comprobar  antes,
@@ -120,7 +124,8 @@ function maxCord (l: TArray): integer;
 var
     i,suma,sumaAnt: integer;
 begin
-  maxCord,sumaAnt:= 0;
+  maxCord:= 0;
+  sumaAnt:= 0;
   for i:= 1 to MAX do begin
     if not(l[i] = NIL) then begin
 
@@ -144,20 +149,14 @@ begin
   end;
 
   printAll(lista);
-  writeln('La suma de las coordenadas X es: ', sumXCords);
-  writeln('La suma de todas las coordenadas es: ', sumAllCords);
-  writeln('La maxima coordenada es la coordenada ',maxCord,' con');
-  writeln('x: ',l[maxCord]^.x,'y: ',l[maxCord]^.y,'z: ',l[maxCord]^.z);
-  disposeCord(1,lista);
-  printAll(Lista);
-  addCord(lista);
-  printAll(lista);
-  addCord(lista);
-  disposeCord(3,lista);
-  printAll(Lista);
+  writeln('La suma de las coordenadas X es: ', sumXCords(lista));
+  writeln('La suma de todas las coordenadas es: ', sumAllCords(lista));
+  writeln('La maxima coordenada es la coordenada ',maxCord(lista),' con');
+  writeln('x: ',lista[maxCord(lista)]^.x,'  y: ',lista[maxCord(lista)]^.y,'  z: ',lista[maxCord(lista)]^.z);
   disposeAll(lista);
   printAll(lista);
 
 
-
+readln;
 end.
+

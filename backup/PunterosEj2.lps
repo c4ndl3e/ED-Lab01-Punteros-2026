@@ -6,58 +6,18 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj2.pas"/>
+        <Filename Value="PunterosEj2.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos Y="23"/>
+        <CursorPos X="6" Y="47"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="21" Column="60"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="18" Column="13" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="19" Column="10" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="38" Column="59" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="39" Column="11" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="40" Column="12" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="PunterosEj2.pas"/>
-        <Caret Line="43" Column="74" TopLine="16"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <Watches>
-      <Item>
-        <Expression Value="p_ent"/>
-      </Item>
-      <Item>
-        <Expression Value="x"/>
-      </Item>
-    </Watches>
-  </Debugging>
 </CONFIG>

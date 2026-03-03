@@ -6,13 +6,20 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj2.lpr"/>
+        <Filename Value="punterosej4_RESUELTO.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="6" Y="47"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="21" Y="94"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PunterosEj5.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="134"/>
+        <CursorPos X="68" Y="163"/>
+        <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>

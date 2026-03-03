@@ -9,7 +9,7 @@
         <Filename Value="PunterosEj3.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="30" Y="25"/>
+        <CursorPos X="29" Y="24"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -94,15 +94,6 @@
     </RunParams>
   </ProjectSession>
   <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="PunterosEj3.lpr"/>
-        <Line Value="21"/>
-      </Item>
-    </BreakPoints>
     <Watches>
       <Item>
         <Expression Value="p_nodo^.entero"/>

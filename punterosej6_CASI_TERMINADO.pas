@@ -1,4 +1,4 @@
-program PunterosEj6;
+program punterosej6_CASI_TERMINADO;
 
 uses SysUtils, crt;
 

@@ -1,4 +1,4 @@
-program PunterosEj4;
+program punterosej4_RESUELTO;
 
 uses
     crt;

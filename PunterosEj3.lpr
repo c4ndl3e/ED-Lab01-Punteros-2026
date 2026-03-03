@@ -18,7 +18,7 @@ begin
   dispose(p_nodo);  { Alternativa 1: Liberar el nodo directamente }
 
 
- { dispose(p_nodo^.puntero); }  { Alternativa 2: Liberar el nodo a través del campo puntero }
+  dispose(p_nodo^.puntero);   { Alternativa 2: Liberar el nodo a través del campo puntero }
 
 { Termina }
 end.

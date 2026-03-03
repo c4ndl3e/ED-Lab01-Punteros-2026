@@ -8,9 +8,10 @@
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
+        <UseDefaultCompilerOptions Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="PunterosEj1"/>
+      <Title Value="PunterosEj6"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,7 +27,7 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="PunterosEj1.pas"/>
+        <Filename Value="PunterosEj6.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -35,7 +36,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="PunterosEj1"/>
+      <Filename Value="PunterosEj6"/>
     </Target>
     <SearchPaths>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
